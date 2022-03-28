@@ -2,7 +2,7 @@
     margin: 0;
     padding-top: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* header */
@@ -20,6 +20,11 @@ header {
 
 nav span {
     color: gray;
+    margin-right: 15px;
+}
+
+nav {
+    margin-bottom: 40px;
 }
 
 header img {
@@ -47,9 +52,13 @@ header img {
 .text_first_banner {
     width: 60%;
     position: absolute;
-    bottom: 50px;
+    bottom: 70px;
     left: 50px;
     color: white;
+}
+
+.first_banner_title {
+    font-size: 30px;
 }
 
 /* secondo blocco */
@@ -73,7 +82,9 @@ header img {
 
 .horizontal_blue {   
     width: 1200px;    
-    height: 100px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .col_image {
@@ -97,6 +108,11 @@ header img {
     height: auto;
     width: 20%;
     margin-top: 15px;
+}
+
+.lorem {
+    margin-top: 20px;
+    margin-bottom: 18px;
 }
 
 .colcentral_blue {
