@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+header {    
+    height: auto;
+    width: 1200px;
+    margin: auto;
+}
+
+/* linea verticale affianco logo
+.vl {
+    border-left: 1px solid #cbbcb6;
+    height: 50px;
+} */
+
+nav span {
+    color: gray;
+}
+
+header img {
+    width: 200px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+/* primo blocco */
+.yellowbox {    
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.first_banner {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+    border-radius: 13px;
+}
+
+.text_first_banner {
+    width: 60%;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+}
+
+/* secondo blocco */
+.bluebox {
+    width: 1200px;
+    height: 530px;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: blue;
+    content: "";
+    display: table;
+    clear: both;    
+}
+
+.horizontal_blue {   
+    width: 1200px;    
+    background-color: aqua;
+    height: 100px;
+}
+
+.float {
+    float: left;
+}
+
+.col_blue {
+    background-color: aqua;
+    height: 400px;
+    width: 185px;
+    margin-top: 15px;
+}
+
+.colcentral_blue {
+    background-color: aqua;
+    height: 400px;
+    width: 800px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+footer {
+    width: 1200px;    
+    background-color: purple;
+    height: 100px;
+    margin: auto; 
+    margin-bottom: 20px;   
+}
